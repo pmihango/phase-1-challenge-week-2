@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 const url = "http://localhost:3000/characters"
 
-
+//fetch 
    
    function getCharacters(){ 
     fetch(url)
@@ -27,7 +27,7 @@ const url = "http://localhost:3000/characters"
           getSingleCharacters(characters)
     })
   }
-//get a single element and display   
+//get a single element and displays the image and likes  
   function getSingleCharacters(characters){
     document.getElementById("charactersname").innerHTML = characters.name
     document.getElementById("charactersimage").src = characters.image
