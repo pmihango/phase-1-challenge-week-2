@@ -27,11 +27,12 @@ const url = "http://localhost:3000/characters"
           getSingleCharacters(characters)
     })
   }
+//get a single element and display   
   function getSingleCharacters(characters){
     document.getElementById("charactersname").innerHTML = characters.name
     document.getElementById("charactersimage").src = characters.image
     document.getElementById("characterslikes").innerHTML = `likes ${characters.votes}`
-
+//add a button to increment the votes by one per click
     let btn = document.getElementById("characterslikes")
     btn.textContent = `Votes: ${characters.votes}`
     btn.addEventListener('click', () => {
