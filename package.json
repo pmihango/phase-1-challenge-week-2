@@ -1,0 +1,25 @@
+{
+  "name": "phase-1-challenge-week-2",
+  "version": "1.0.0",
+  "description": "week 2 code chalenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pmihango/phase-1-challenge-week-2.git"
+  },
+  "keywords": [
+    "animals",
+    "voting",
+    "cutest",
+    "animal"
+  ],
+  "author": "Paul Mihango",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pmihango/phase-1-challenge-week-2/issues"
+  },
+  "homepage": "https://github.com/pmihango/phase-1-challenge-week-2#readme"
+}
